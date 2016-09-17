@@ -1,0 +1,17 @@
+﻿body {
+		background-color: white;
+	    color: black;
+	    max-width: 60%;
+	    margin: auto;
+	
+	    
+}
+
+
+
+section {
+		border-style: dotted;
+		border-width: 1px;
+		border-color: black;
+		margin-bottom: 10px;
+}
