@@ -16,6 +16,10 @@
 	/* ^Georgia is nice, fall-back=helvetica */	
 }
 
+img{
+	max-width: 100%;
+}
+
 h1 {
 	text-align: center;
 	font-style: italic;
