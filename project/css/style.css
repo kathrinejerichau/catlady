@@ -8,13 +8,14 @@ html, body{
 #wrapper{
 	position: relative;
 
-	margin: auto 5% auto 5%;	/* margin: auto 5% auto 5%; */
+	margin: auto;	/* margin: auto 5% auto 5%; */
 	max-width: 960px;
-	min-width: 525px;				/* 525 maintains integrity of navbar */
+	min-width: 675px;				/* 525 maintains integrity of navbar */
 	border: 3px solid #e8c271;
 	border-top: none;
 	background-color: #ffeddf;
 }
+
 
 /*
 ******************************
@@ -83,11 +84,8 @@ html, body{
 }
 
 #bannertext h4{
-	/*border-radius: 25px;
-	padding: 0 2% 0 2%;*/
-
 	position: absolute;
-	top: 60%;
+	top: 62%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -100,7 +98,7 @@ html, body{
 */
 #navbar {
 	margin-top: -5px;
-	height: 50px;
+	height: 48px;
 	width: 100%;
 	text-align: center;
 	background-color: #e8c271;
@@ -146,7 +144,6 @@ html, body{
 }
 
 #navbar .dropdown-content a{
-	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -161,30 +158,45 @@ html, body{
 	display: block;	
 }
 
+/*
+***************************************
+*	Body - content
+***************************************
+*/
 
 #body {
 	width: 100%;
 	min-height: 450px;
 }
 
+
+
+
 /*
 ****************************************
 *	Media Queries to smooth size scaling
 ****************************************
  */
-@media (max-width: 600px){
+ 
+ @media(max-width: 960px){
+	 #wrapper{
+		 margin: 0 3% 0 3%;
+	 }
+ }
+ 
+@media (max-width: 800px){
 	#wrapper{
-		margin: 0 3% 0 3%;
-	}
-}
-
-@media (max-width: 575px){
-	#wrapper {
 		margin: 0 2% 0 2%;
 	}
 }
 
-@media(max-width: 550px){
+@media (max-width: 750px){
+	#wrapper {
+		margin: 0 1% 0 1%;
+	}
+}
+
+@media(max-width: 700px){
 	#wrapper {
 		margin: 0 auto;
 	}
