@@ -1,0 +1,53 @@
+Work work:
+
+Tidligere:
+P1_requirements.html		: Alle
+P2_Design.html			: Alle 
+General Layout(navbar++)	: Fredrik
+style.css			: Fredrik
+
+
+Framtidig:
+JavaScript:
+Donation(08donate.html)		: Lars & Martin
+Slideshow(02ourCats.html)	: Lars & Martin
+Form(07contact.html)		: Fredrik (& Sofia + Kathrine)
+CatFacts(04catCare.html)	: Sofia & Kathrine
+
+HTML:
+00home.html			: Fredrik
+01howToAdopt.html		: Kathrine
+02ourCats.html			: Lars & Martin
+03handIn.html			: Fredrik
+04catCare.html			: Sofia & Kathrine
+05fun.html			: Fredrik
+06about.html			: Martin
+07contact.html			: Kathrine & Fredrik
+08donate.html			: Lars & Martin
+
+Google Form			: Fredrik
+
+
+************************
+Ansvarlig per side gjør:
+* Fyll inn endringer i P3_changes.html, sammenlign siden med P2_design.html
+* JavaScript & HTML skal være ferdig innen onsdag 23:59
+* Google Form skal være ferdig innen onsdag 23:59
+
+
+************************
+P3_Changes:
+
+1. Link to folk.martin.ntnu/00home.html
+
+2. How each member fulfilled their minimum requirements
+	Ex: 
+	“Rachel fulfilled her JavaScript requirements with a user-defined 
+	function on intro.html and rollovers on members.html. Tom validated 
+	form inputs on orform.html, and implemented the 
+	pull-down menu for each page”
+
+3. Explicitly state which person worked on which files (ALL FILES), who produced
+the artwork, etc.
+
+4. Modularity 
