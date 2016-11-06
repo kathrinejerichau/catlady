@@ -138,6 +138,9 @@ html, body{
 	min-height: 450px;
 	max-height: auto;
 	color: #4e3d42;
+	
+	font-family: georgia;
+	font-size: 18px;
 }
 
 #divBody img {
