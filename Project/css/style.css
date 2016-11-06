@@ -144,6 +144,11 @@ html, body{
 ****************************************
 */
 
+#nameOfPage {
+	text-align: center;
+	height: 30px;	
+}
+
 #bodyLeft{
 	position: relative;
 	float: left;
