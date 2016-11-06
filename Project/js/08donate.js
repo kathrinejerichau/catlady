@@ -1,23 +1,26 @@
 
 
-function donationCounter(donation){{
-	var totalDonations = 0
-	//var donationList = document.createElement("LI");
-	donation = document.getElementById("NewDonation").value;
-	
-	donationList.appendChild(donation);
-	//totalDonations += donation
-	//console.log(totalDonations)
-}
-	var donationList = [1,3, 5, 8]
+const donationList = [];
 
+function donationCounter(){
+
+	var donation = document.getElementById("NewDonation").value;
+    var donatedNumber = Number(donation);
+  
+    donationList.push(donatedNumber);
+
+
+    
 var totalDonations = donationList.reduce(sum, 0);
-	
-document.getElementById("output").innerHTML = (donationList);
-}
 
 function sum(a, b){
 	return a + b;
 }
 
-console.log(totalDonations);
+  document.getElementById("output").innerHTML = ("Thank you for all your support. So far " + donationList.length
+  + " contributors has donated to our shelter. Their contributions amounts to a total of "
+  + totalDonations + "$ to help local cats.");
+
+}
+
+
