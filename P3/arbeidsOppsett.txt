@@ -1,4 +1,4 @@
-Work work:
+﻿Work work:
 
 Tidligere:
 P1_requirements.html		: Alle
@@ -18,7 +18,7 @@ HTML:
 00home.html			: Fredrik
 01howToAdopt.html		: Kathrine
 02ourCats.html			: Lars & Martin
-03handIn.html			: Fredrik
+03handIn.html			: Fredrik			DONE
 04catCare.html			: Sofia & Kathrine
 05fun.html			: Fredrik
 06about.html			: Martin
