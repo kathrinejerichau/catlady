@@ -3,34 +3,11 @@
 <head>
 <<<<<<< HEAD
 
-	<link rel="stylesheet" type="text/css" href="css/08donate.css"> 
-	<title>Cattius' Cat Castle</title>
-</head>
-<body>
 
-<p> Want to support us? We are a non-profit organization that needs 
-	funds to help as many cats as possible. All donations go to the well-
-	being of homeless cats. 
-	
-	If you want to remain anonymous you can leave the fields blank. 
-
-	</p>
-	
-	
-	<form onsubmit="event.preventDefault(); donationCounter();" autocomplete="off">
-	<input type="text" name="donName" id="donatorName" placeholder="Your name: ">
-	<input type="text" name="donAddress" id="donatorAddress" placeholder="Address: ">
-	<input type="email" name="donEmail" id="donatorEmail" placeholder="Email: ">
-	<input type="text" name="donPhone" id="donatorPhone" placeholder="Phone number: ">
-	<input type="number" name="donAmount" id="NewDonation" placeholder="Donation amount....." min="1" >
-	
-	<input type="image" src="img/donationButton.jpg" id="donationButton" value="DONATE NOW" height="75" width="100">
-	<br><output id="output"></output>
-
-<script src="js/08donate.js"> </script>
 =======
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/08donate.css"> 
 	<title>Cattius' Cat Castle</title>
 </head>
 <body>
@@ -79,14 +56,43 @@
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
+		<div id="donationForm">
+	
+	<p> Want to support us? We are a non-profit organization that needs 
+	funds to help as many cats as possible. All donations go to the well-
+	being of homeless cats. 
+	
+	If you want to remain anonymous you can leave the fields blank. 
+
+	</p>
+	
+	
+	<form onsubmit="event.preventDefault(); donationCounter();" autocomplete="off">
+	<input type="text" name="donName" id="donatorName" placeholder="Your name: ">
+	<input type="text" name="donAddress" id="donatorAddress" placeholder="Address: ">
+	<input type="email" name="donEmail" id="donatorEmail" placeholder="Email: ">
+	<input type="text" name="donPhone" id="donatorPhone" placeholder="Phone number: ">
+	<input type="number" name="donAmount" id="NewDonation" placeholder="Donation amount....." min="1" >
+	
+	<input type="image" src="img/donationButton.jpg" id="donationButton" value="DONATE NOW" height="75" width="100">
+	<br><output id="output"></output>
+
+	
+	
+	<!-- HVA ER DETTE, FREDRIK? SKILLER FOR SIDENE SOM HAR BILDE PÅ EN HALVDEL OG TEKST PÅ DEN ANDRE?
+	</div>
 		<div id="bodyLeft"></div>
 		<div id="bodyRight"></div>
 	</div>
+	
+-->
 	
 	
 	<div class="footer">contact@cattius.com | Content by Cattius' Cat Castle</div> 
 </div>
 
 >>>>>>> origin/master
+
+<script src="js/08donate.js"> </script>
 </body>
 </html>
