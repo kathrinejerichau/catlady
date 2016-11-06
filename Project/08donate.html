@@ -11,7 +11,12 @@
 	being of homeless cats. 
 	You can click the PayPal icon to donate with your credit/debit card
 	or you can use VIPPS to the shelters number xxxx xxxx. </p>
-
+	
+	
+	<form onsubmit="event.preventDefault(); donationCounter();" autocomplete="off">
+	<input type="number" name="newDon" id="NewDonation" placeholder="Donation amount....." min="1" autofocus>
+	<input type="button" id="donationButton" value="DONATE" onclick="donationCounter()">
+	<br><output id="output"></output>
 
 <script src="js/08donate.js"> </script>
 </body>
