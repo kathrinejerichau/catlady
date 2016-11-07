@@ -31,7 +31,8 @@
 		
 		<div id="donationForm">
 	
-	<form onsubmit="event.preventDefault(); donationCounter();" autocomplete="off">
+	<form onsubmit="event.preventDefault(); donationCounter();" autocomplete="off" 
+	action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">>
 	<input type="text" name="donName" id="donatorName" placeholder="Your name: ">
 	<input type="text" name="donAddress" id="donatorAddress" placeholder="Address: ">
 	<input type="email" name="donEmail" id="donatorEmail" placeholder="Email: ">
