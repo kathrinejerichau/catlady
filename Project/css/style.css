@@ -25,6 +25,7 @@ html, body{
 
 .banwrap {
 	position:relative;
+	text-align: center;
 }
 
 .banwrap div {
@@ -50,9 +51,8 @@ html, body{
 
 .centered{
 	position: relative;
-	margin: 0 auto;
-	left: -25%;
-	transform: translate(50%, 20px);
+	padding-top: 25px;
+	box-sizing: border-box;
 }
 
 
