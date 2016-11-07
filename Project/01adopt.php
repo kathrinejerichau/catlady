@@ -1,53 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Cattius' Cat Castle</title>
-</head>
+	<!-- ***** HEADER CONTENT BELOW ***** -->
+<div class="header">
+	<?php include 'header.php';?>
+</div>
 <body>
 <div id="wrapper">
 
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-	<div class="banwrap">
-		<div>
-			<img src="img/catLeft.png" alt="left banner cat">
-		</div>
-			
-			<div class="centered">
-				<img id="bannertext" src="img/bannertext.png" alt="banner image text">
-			</div>
-
-		<div>
-			<img src="img/catRight.png" alt="right banner cat">
-		</div>
+	<div class="banner">
+		<?php include 'banner.php';?>
 	</div>
 	
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-	<div id="navbar">
-	<ul>
-		<li><a class="active" href="00home.html">Home</a></li>
-		<li class="dropdown">
-			<a href="" class="dropdownbtn">Adopt</a>
-			<div class="dropdown-content">
-				<a href="01adopt.html">How to Adopt</a>
-				<a href="02ourCats.html">Our Cats</a>
-			</div>
-		</li>
-		<li><a href="03handIn.html">Hand-in</a></li>
-		<li><a href="04catCare.html">Cat Care</a></li>
-		<li><a href="05fun.html">Entertainment</a></li>
-		<li class="dropdown">
-			<a href="" class="dropdownbtn">About</a>
-			<div class="dropdown-content">
-				<a href="06about.html">About Us</a>
-				<a href="07contact.html">Contact</a>
-				<a href="08donate.html">Donate</a>
-			</div>
-		</li>
-	</ul>
-
+	<div class="menu">
+		<?php include 'menu.php';?>
 	</div>
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
@@ -80,7 +47,10 @@
 	</div>
 	
 	
-	<div class="footer">contact@cattius.com | Content by Cattius' Cat Castle</div> 
+	<!-- ***** FOOTER CONTENT BELOW ***** -->
+	<div class="footer">
+		<?php include 'footer.php';?>
+	</div>
 </div>
 
 </body>
