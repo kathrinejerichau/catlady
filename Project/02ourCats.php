@@ -6,29 +6,6 @@
 </div>
 <body>
 
-<div class="catPictures">
-  <div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
-  <img src="cat0.jpg" style="width:100%">
-  <div class="text">KatteKarl</div>
-</div>
-
-<div class="catPictures">
-  <div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
-  <img src="cat1.jpg" style="width:100%">
-  <div class="text">En annen katt</div>
-</div>
-
-<div class="catPictures">
-  <div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
-  <img src="cat2.jpg" style="width:100%">
-  <div class="text">En annen katt</div>
-</div>
-
-<div class="catPictures">
-  <div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
-  <img src="cat3.jpg" style="width:100%">
-  <div class="text">En annen katt</div>
-</div>
 
 <div id="wrapper">
 
@@ -44,8 +21,33 @@
 	
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
-		<div id="bodyLeft"></div>
-		<div id="bodyRight"></div>
+	<div id="nameOfPage">
+		<h2>Our Cats</h2>
+		</div>
+	<div class="catPictures">
+		<div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
+	  <img src="cat0.jpg" style="width:100%">
+	  <div class="text">KatteKarl</div>
+	</div>
+
+	<div class="catPictures">
+	  <div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
+	  <img src="cat1.jpg" style="width:100%">
+	  <div class="text">En annen katt</div>
+	</div>
+
+	<div class="catPictures">
+	  <div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
+	  <img src="cat2.jpg" style="width:100%">
+	  <div class="text">En annen katt</div>
+	</div>
+
+	<div class="catPictures">
+	  <div class="numbertext">SETT INN KATTNR / ANTALL KATTEBILDER</div>
+	  <img src="cat3.jpg" style="width:100%">
+	  <div class="text">En annen katt</div>
+	</div>
+	
 	</div>
 	
 	
