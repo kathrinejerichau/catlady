@@ -1,10 +1,11 @@
-﻿Work work:
+Work work:
 
 Tidligere:
 P1_requirements.html		: Alle
 P2_Design.html			: Alle 
 General Layout(navbar++)	: Fredrik
 style.css			: Fredrik
+favicon				: Fredrik
 
 
 Framtidig:
