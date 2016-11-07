@@ -19,7 +19,9 @@
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
-		<div id="bodyLeft"></div>
+		<div id="bodyLeft">
+			<img src="img/homeCat.png" alt="home cat">
+		</div>
 		<div id="bodyRight"></div>
 	</div>
 	
