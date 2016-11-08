@@ -20,7 +20,10 @@
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
 		<div id="bodyLeft"></div>
-		<div id="bodyRight"></div>
+		<div id="bodyRight">
+			<form onsubmit="event.preventDefault();" autocomplete="off" action="http:folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+
+		</div>
 	</div>
 	
 	
