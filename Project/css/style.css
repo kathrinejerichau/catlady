@@ -188,6 +188,11 @@ html, body{
 	margin: auto;
 }
 
+/* 
+************************************
+*	ourCats Slidwshow below
+************************************ 
+*/
 .catPictures img{
 	position: relative;
 	float: left;
@@ -204,10 +209,14 @@ html, body{
 	background-color: white;
 	margin: 5% 5% 1% 50%;
 	border-style: solid;
-	background-color: green;
 }
 
 
+/*
+************************************ 
+*	Form styling below 
+************************************ 
+*/
 form {
 		max-width: 60%;
 		margin:auto;
