@@ -48,6 +48,33 @@
 	
 	<input type="image" src="img/donationButton.jpg" id="donationButton" height="75" width="100" alt="Donate button image">
 	
+	<canvas id="myCanvas" width="200" height="100" style="border:2px solid  #FFCC00;">
+	Your browser does not support the HTML5 canvas tag.</canvas>
+		<img id="pay" src="../img/Betaling.png" alt="betal" width="100" height="40">
+	<script>
+	
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	var h = c.getContext("2d");
+	var imageObj = new Image();
+	var grd=ctx.createLinearGradient(0,200,0,0);
+	grd.addColorStop(0,"orange");
+	grd.addColorStop(1,"white");
+	
+	ctx.fillStyle = grd;
+	ctx.fillRect(0,0,200,100);
+	
+	// text
+	h.font= "italic 10px Arial";
+	ctx.font = "italic 30px Arial";
+	h.fillStyle= "#20B2AA";
+	h.fillText("Donate with",15,40,100,200);
+	ctx.fillText("PurrPurrPal",15,70,200,100);
+	
+
+	
+	</script>
+
 	</form>
 
 
