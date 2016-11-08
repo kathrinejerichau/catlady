@@ -22,13 +22,12 @@
 		<div id="bodyLeft"></div>
 		<div id="bodyRight">
 			<form id="contactForm" onsubmit="event.preventDefault();" autocomplete="off" action="http:folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
-			<input type="text" name="contactName" id="contactName" placeholder="You name: ">
-			<input type="email" name="contactEmail" id="contactEmail" placeholder="Your email">
-			<textarea rows="4" cols="50" form_id="contactForm" name="contactTextBox" id="contactTextBox" placeholder="Your message here:"></textarea><br>
-			<input type="submit" id="sendButton" value="Send" height="75" width="100">
+			<input type="text" name="contactName" id="contactName" placeholder="You name: " required>
+			<input type="email" name="contactEmail" id="contactEmail" placeholder="Your email" required>
+			<textarea rows="4" cols="31" form_id="contactForm" name="contactTextBox" id="contactTextBox" placeholder="Your message here:" required></textarea><br>
+			<input type="submit" id="sendButton" onclick="validateForm();" value="Send" height="75" width="100">
 			<input type="button" onclick="rsForm();" id="resetForm" value="Reset" height="75" width="100">
 			</form>
-
 		</div>
 	</div>
 	
