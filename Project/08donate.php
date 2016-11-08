@@ -46,13 +46,13 @@
 	<input type="text" name="donPhone" id="donatorPhone" placeholder="Phone number: ">
 	<input type="number" name="donAmount" id="NewDonation" placeholder="Donation amount....." min="1" >
 	
-	<input type="image" src="img/donationButton.jpg" id="donationButton" height="75" width="100" alt="Donate button image">
+	<input type="image" src="img/purr.png" id="donationButton" height="100" width="200" alt="Donate button image">
 	
-	<canvas id="myCanvas" width="200" height="100" style="border:2px solid  #FFCC00;">
-	Your browser does not support the HTML5 canvas tag.</canvas>
-		<img id="pay" src="img/Betaling2.png" alt="betal" width="100" height="25">
+	<! -- ** <canvas id="myCanvas" width="200" height="100" style="border:2px solid  #FFCC00;">
+	
+		
 	<script>
-	
+	/* 
 	var c = document.getElementById("myCanvas");
 	var ctx = c.getContext("2d");
 	var h = c.getContext("2d");
@@ -72,9 +72,9 @@
 	ctx.fillText("PurrPurrPal",15,70,200,100);
 	ctx.drawImage(img, 15,80,100,20);
 	
-
+ */
 	
-	</script>
+	</script> 
 
 	</form>
 
