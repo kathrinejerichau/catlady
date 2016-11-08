@@ -188,17 +188,18 @@ html, body{
 	margin: auto;
 }
 
-#donationForm {
+form {
 		max-width: 60%;
-		margin: auto;
-		padding: 5px 15px 5px 15px;
+		margin:auto;
+		padding: 10px 15px 5px 15px;
 		border-radius: 5px;
 		border: 1px solid;
+		min-height: 20px;
 		
 
 }
 
-#donationForm input[type=text], [type=email], [type=number], select{
+form input[type=text], [type=email], [type=number], select{
 		width: 80%;
 		padding: 10px 15 px;
 		border: 2px dark gray;
@@ -209,11 +210,14 @@ html, body{
 		text-align: center;
 }
 
-#donationForm input[type=image]{
+form input[type=image]{
 		margin: auto;
 		display: block; 
 	}
 
+form{
+		text-align: center;
+}
 /*
 ****************************************
 *	Footer
@@ -226,6 +230,9 @@ html, body{
 	bottom: 0;
 	left: 0;
 	text-align: center;
+	display: block;
+	padding-top: 20px;
+	height: 20px;
 }
 
 
