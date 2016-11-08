@@ -188,23 +188,25 @@ html, body{
 	margin: auto;
 }
 
-#donationForm form{
-		max-width: 100%;
-		margin: 10px;
+#donationForm {
+		max-width: 60%;
+		margin: auto;
 		padding: 5px 15px 5px 15px;
 		border-radius: 5px;
 		border: 1px solid;
+		
 
 }
 
 #donationForm input[type=text], [type=email], [type=number], select{
-		width: 100%;
+		width: 80%;
 		padding: 10px 15 px;
 		border: 2px dark gray;
 		display: inline-block;
 		border-radius: 5px;
 		box-sizing: border-box;
 		margin: 7px;
+		text-align: center;
 }
 
 #donationForm input[type=image]{
