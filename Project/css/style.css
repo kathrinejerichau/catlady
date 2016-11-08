@@ -188,6 +188,26 @@ html, body{
 	margin: auto;
 }
 
+.catPictures img{
+	position: relative;
+	float: left;
+	margin: 0 0 0 35%;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+.numbertextOurCats{
+	text-align: center;
+	
+}
+.textOurCats{
+	background-color: white;
+	margin: 5% 5% 1% 50%;
+	border-style: solid;
+	background-color: green;
+}
+
+
 form {
 		max-width: 60%;
 		margin:auto;
