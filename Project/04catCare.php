@@ -24,9 +24,15 @@
 			<h2>Cat care</h2>
 		</div>
 		<div id="bodyLeft">
+			<canvas id="catCareLeft" width="100%" height="300px"></canvas>
+		<p>Cats require lots of love from their owner in order to be happy.
+
+		Here you can read all about how to take care of your cat.</p>
 			<img src="img/cat_care.jpg" alt="cat care" width="100%">
 		</div>
-		<div id="bodyRight"></div>
+		<div id="bodyRight">
+			<canvas id="catCareRight" width="100%" height="300px"></canvas>
+		</div>
 	</div>
 	
 	
@@ -35,6 +41,8 @@
 		<?php include 'footer.php';?>
 	</div>
 </div>
+
+<script src="js/04catCare.js"></script>
 
 </body>
 </html>
