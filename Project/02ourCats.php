@@ -25,95 +25,97 @@
 		<h2>Our Cats</h2>
 		</div>
 	
-	<!-- ***** fix folder til img & img src ***** -->
+	<p> Here you can see pictures of the cats current available for adoption. </p>
+
+	
 	<div class="catPictures">
 		<div class="numbertextOurCats"> 1/15 </div>
-	  <img src="img/cat1.png">
-	  <div class="textOurCats"> Dette er KatteKarl. Han er en liten luring, som ikke lar seg skremme.</div>
+	  <img src="img/ourCats/cat01.png">
+	  <div class="textOurCats"> Adorable Anthon </div>
 	</div>
 
 	<div class="catPictures">
 	  <div class="numbertextOurCats">2 / 15</div>
-	  <img src="img/cat2.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat02.png">
+	  <div class="textOurCats">Elegant Eric</div>
 	</div>
 
 	<div class="catPictures">
 	  <div class="numbertextOurCats">3 / 15</div>
-	  <img src="img/cat3.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat03.png">
+	  <div class="textOurCats">Lazy Larry</div>
 	</div>
 
 	<div class="catPictures">
 	  <div class="numbertextOurCats">4 / 15</div>
-	  <img src="img/cat4.png">
-	  <div class="textOurCats">Pusur</div>
+	  <img src="img/ourCats/cat04.png">
+	  <div class="textOurCats">Sleepy Steve</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">5 / 15</div>
-	  <img src="img/cat5.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat05.png">
+	  <div class="textOurCats">Upperton</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">6 / 15</div>
-	  <img src="img/cat6.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat06.png">
+	  <div class="textOurCats">Curious Currybomb</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">7 / 15</div>
-	  <img src="img/cat7.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat07.png">
+	  <div class="textOurCats">Butterbeard</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">8 / 15</div>
-	  <img src="img/cat8.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat08.png">
+	  <div class="textOurCats">Mr. Whitepaw</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">9 / 15</div>
-	  <img src="img/cat9.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat09.png">
+	  <div class="textOurCats">Anxious Adam</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">10 / 15</div>
-	  <img src="img/cat10.png">
-	  <div class="textOurCats">Katten Reidar liker kulda.</div>
+	  <img src="img/ourCats/cat10.png">
+	  <div class="textOurCats">Bossy Bernt</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">11 / 15</div>
-	  <img src="img/cat11.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat11.png">
+	  <div class="textOurCats">Dr. Johnson</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">12 / 15</div>
-	  <img src="img/cat12.png">
-	  <div class="textOurCats">Luske Lars</div>
+	  <img src="img/ourCats/cat12.png">
+	  <div class="textOurCats">Sneaking Sherry</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">13 / 15</div>
-	  <img src="img/cat13.png">
-	  <div class="textOurCats">Stirre Stian</div>
+	  <img src="img/ourCats/cat13.png">
+	  <div class="textOurCats">Staring Stian</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">14 / 15</div>
-	  <img src="img/cat14.png">
-	  <div class="textOurCats">Myse Mons</div>
+	  <img src="img/ourCats/cat14.png">
+	  <div class="textOurCats">Mushy Martin</div>
 	</div>
 	
 	<div class="catPictures">
 	  <div class="numbertextOurCats">15 / 15</div>
-	  <img src="img/cat15.png">
-	  <div class="textOurCats">En annen katt</div>
+	  <img src="img/ourCats/cat15.png">
+	  <div class="textOurCats">Fabulous Fredrik</div>
 	</div>
 
 	
