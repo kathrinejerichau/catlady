@@ -28,9 +28,9 @@ PURPOSE: gives information about cat care
 			<h2>Cat care</h2>
 		</div>
 		<div id="bodyLeft">
-		<img src="img/cat_care.jpg" alt="cat care" width="100%">
-		<img src="img/cat_care_fatCat.jpg" alt="cat care" width="100%">
-		<img src="img/cat_care_cute.jpg" alt="cat care" width="100%">
+		<img src="img/cat_care.jpg" alt="cat care" id="catCare1">
+		<img src="img/cat_care_fatCat.jpg" alt="cat care" id="catCare2">
+		<img src="img/cat_care_cute.jpg" alt="cat care" id="catCare3">
 			
 		</div>
 		<div id="bodyRight">

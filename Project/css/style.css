@@ -371,6 +371,10 @@ form{
 	height: 150px;
 }
 
+#catCare1, #catCare2, #catCare3, #aboutImage {
+	width: 100%;
+}
+
 
 
 
