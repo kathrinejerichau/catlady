@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!--
+FILE NAME: 00home.php
+WRITTEN BY: Fredrik I. Forså
+WHEN: October 2016
+PURPOSE: The homepage of the Cat Castle.
+-->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
 <div class="header">
@@ -24,7 +30,7 @@
 		</div>
 		
 		<div id="bodyLeft">
-			<img src="img/homeCat.png" alt="home cat" width="100%">
+			<img src="img/homeCat.png" alt="home cat">
 		</div>
 		
 		<div id="bodyRight">
