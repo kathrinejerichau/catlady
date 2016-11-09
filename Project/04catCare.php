@@ -1,3 +1,10 @@
+<!-- 
+FILE NAME: 04catCare.php
+WRITTEN BY: Cats101
+WHEN: November 2016
+PURPOSE: gives information about cat care
+-->
+
 <!DOCTYPE html>
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
@@ -30,12 +37,13 @@
 			
 		</div>
 		<div id="bodyRight">
+			<!-- Canvas to make the rotating cat tips in JavaScript -->
 			<div id="catCareTips">
 				Cat Care Tip:<br><br>
 				<canvas id="catCareRight" width="300" height="300"></canvas>
 			</div>
 			
-
+			<!-- Text about cats -->
 			<p>Cats require lots of love from their owner in order to be happy. Here you can read all about how to take care of your cat.</p>
 
 			<p>
