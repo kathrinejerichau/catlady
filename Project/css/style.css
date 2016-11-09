@@ -228,7 +228,7 @@ form {
 
 }
 
-form input[type=text], [type=email], [type=number], select{
+form input[type=text], [type=email], [type=number], select, textarea{
 		width: 80%;
 		padding: 10px 15 px;
 		border: 2px dark gray;
