@@ -24,7 +24,7 @@
 		</div>
 		
 		<div id="bodyLeft">
-			<img src="img/homeCat.png" alt="home cat">
+			<img src="img/homeCat.png" alt="home cat" width="100%">
 		</div>
 		
 		<div id="bodyRight">
