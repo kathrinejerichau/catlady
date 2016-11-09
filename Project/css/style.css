@@ -262,6 +262,7 @@ form{
 	right: 0;
 	bottom: 0;
 	left: 0;
+	margin-top: 20px;
 	text-align: center;
 	display: block;
 	padding-top: 20px;
@@ -308,10 +309,16 @@ form{
 #catCareRight {
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10px;
 	display: block;
 	border-radius: 10px; 
 	border: 3px solid #4e3d42;
 }
+
+#catCareTips {
+	height: 150px;
+}
+
 
 
 

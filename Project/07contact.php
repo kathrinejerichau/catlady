@@ -32,6 +32,14 @@
 			<p>
 				Cattius will typically respond within 1 to 24 hours. 
 			</p>
+			<p>
+				Dog Lane 9, 1337 00 Zootopia.<br>
+				Phone number: 123 456 78 90<br>
+				email: <a href="mailto:cattius@catcastle.com">cattius@catcastle.com</a><br>
+				Opening hours: 10-18<br>
+				Opening hours (phone): 10-20<br>
+			</p>
+
 		</div>
 		<div id="bodyRight">
 			<form id="contactForm" onsubmit="event.preventDefault();" autocomplete="off" action="http:folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">

@@ -22,7 +22,7 @@
 	<div id="divBody">
 	
 		<div id="nameOfPage">
-			<h2>Donations</h2>
+			<h2>Donate</h2>
 		</div>
 		
 	

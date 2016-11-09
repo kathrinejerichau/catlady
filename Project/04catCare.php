@@ -27,14 +27,15 @@
 		<img src="img/cat_care.jpg" alt="cat care" width="100%">
 		<img src="img/cat_care_fatCat.jpg" alt="cat care" width="100%">
 		<img src="img/cat_care_cute.jpg" alt="cat care" width="100%">
-
-		
-		
 			
 		</div>
 		<div id="bodyRight">
-			Cat Care Tip:<br><br>
-			<canvas id="catCareRight" width="300" height="300"></canvas>
+			<div id="catCareTips">
+				Cat Care Tip:<br><br>
+				<canvas id="catCareRight" width="300" height="300"></canvas>
+			</div>
+			
+
 			<p>Cats require lots of love from their owner in order to be happy. Here you can read all about how to take care of your cat.</p>
 
 			<p>
