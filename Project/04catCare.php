@@ -33,8 +33,8 @@
 			
 		</div>
 		<div id="bodyRight">
-			<p>Cat Care Tip:</p>			
-			<canvas id="catCareRight" width="300" height="300"></canvas><br>
+			Cat Care Tip:<br><br>
+			<canvas id="catCareRight" width="300" height="300"></canvas>
 			<p>Cats require lots of love from their owner in order to be happy. Here you can read all about how to take care of your cat.</p>
 
 			<p>

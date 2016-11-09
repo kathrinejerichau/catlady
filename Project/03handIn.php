@@ -36,7 +36,7 @@
 				of the precious being for you, and give the feline the home it deserves.
 			</p>
 			<p>
-				Click <a href="07contact.html">here</a> to access our contact information
+				Click <a href="07contact.php">here</a> to access our contact information
 				regarding opening hours to hand in your cat. 
 			</p>
 		</div>
