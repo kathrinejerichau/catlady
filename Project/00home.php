@@ -1,21 +1,24 @@
 <!DOCTYPE html>
+<!--
+FILE NAME: 00home.php
+WRITTEN BY: Fredrik I. Forså
+WHEN: October 2016
+PURPOSE: The homepage of the Cat Castle.
+-->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
-<div class="header">
 	<?php include 'header.php';?>
-</div>
+
 <body>
 <div id="wrapper">
 
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-	<div class="banner">
 		<?php include 'banner.php';?>
-	</div>
+
 	
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-	<div class="menu">
 		<?php include 'menu.php';?>
-	</div>
+
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
@@ -24,7 +27,7 @@
 		</div>
 		
 		<div id="bodyLeft">
-			<img src="img/homeCat.png" alt="home cat" width="100%">
+			<img src="img/homeCat.png" alt="home cat">
 		</div>
 		
 		<div id="bodyRight">
@@ -49,9 +52,8 @@
 	
 	
 	<!-- ***** FOOTER CONTENT BELOW ***** -->
-	<div class="footer">
 		<?php include 'footer.php';?>
-	</div>
+
 </div>
 
 </body>

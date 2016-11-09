@@ -1,15 +1,28 @@
-/* &&& adjust width specs */
+/*
+FILE NAME: style.css
+WRITTEN BY: Fredrik I. Forså & group
+WHEN: October - November 2016
+PURPOSE: Main features were created by Fredrik,
+		the rest of the content was added on as
+		content was added to each individual page.
+		One shared css for the entire website.
+*/
+
 html, body{
 	height: auto;
-	margin: auto;					/* margin: auto; */
+	margin: auto;					
 }
 
+/*	All content goes within the wrapper. 
+*	Sets the min-width of website to 750px.
+*	Sets the max-width of website to 960px.
+*/
 #wrapper{
 	position: relative;
-	margin: auto;					/* margin: auto 5% auto 5%; */
+	margin: auto;					
 	height: auto;
 	max-width: 960px;
-	min-width: 750px;				/* 525 maintains integrity of navbar */
+	min-width: 750px;				
 	border: 3px solid #e8c271;
 	border-top: none;
 	background-color: #ffeddf;
@@ -211,6 +224,10 @@ html, body{
 	border-style: solid;
 }
 
+#ourCatsPara{
+	text-align: center;
+}
+
 /* 
 ************************************
 *	about Slidwshow below
@@ -267,17 +284,24 @@ form{
 */
 
 #upperRow, #lowerRow {
-	margin: auto;
-	padding: 5px 5px 5px 5px;
-	float: center;
+	margin-left: 12%;
 	display:flex;
+	padding: 5px 25px 5px;
+	position: relative;
 }
 
 .imgContainer{
-	text-align: center;
+	margin: auto;
+	position: relative;
+	
 }
 
-
+.thumbnail img{
+	width:120px;
+	position: relative;
+	height:120px;
+	padding: 5px 5px 5px 5px;
+}
 
 /*
 ****************************************

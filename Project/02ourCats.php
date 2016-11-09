@@ -1,23 +1,21 @@
 <!DOCTYPE html>
+<!--
+FILE NAME: 02ourCats.php
+WRITTEN BY: Lars G. Thyholdt
+WHEN: November 2016
+PURPOSE: Slideshow with cats available for adoption.
+-->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
-<div class="header">
 	<?php include 'header.php';?>
-</div>
 <body>
-
-
 <div id="wrapper">
 
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-	<div class="banner">
 		<?php include 'banner.php';?>
-	</div>
 	
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-	<div class="menu">
 		<?php include 'menu.php';?>
-	</div>
 	
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
@@ -25,8 +23,10 @@
 		<h2>Our Cats</h2>
 		</div>
 	
-	<p> Here you can see pictures of the cats current available for adoption. </p>
-
+	<div id="ourCatsPara">
+	<p> Here you can see pictures of the cats current available for adoption. If you want to 
+	adopt one of these majestic animals, go to our <a href="01adopt.php">adoption page</a>. </p>
+	</div>
 	
 	<div class="catPictures">
 		<div class="numbertextOurCats"> 1/15 </div>
@@ -125,11 +125,8 @@
 	
 	
 	<!-- ***** FOOTER CONTENT BELOW ***** -->
-	<div class="footer">
 		<?php include 'footer.php';?>
-	</div>
 </div>
-
 
 <script src="js/02ourCats.js"> </script>
 </body>
