@@ -21,7 +21,7 @@
 	
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
-	<div id="ourCats">
+	<div id="nameOfPage">
 		<h2>Our Cats</h2>
 		</div>
 	<div class="catPictures">
