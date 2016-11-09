@@ -259,10 +259,15 @@ form{
 ****************************************
 */
 
-#upperRow {
+#upperRow, #lowerRow {
 	margin: auto;
+	padding: 5px 5px 5px 5px;
+	float: center;
+	display:flex;
+}
+
+.imgContainer{
 	text-align: center;
-	display:;
 }
 
 

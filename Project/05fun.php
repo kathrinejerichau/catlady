@@ -19,21 +19,25 @@
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
+	
+	
+<div id="nameOfPage">
+			<h2>Entertainment </h2>
+		</div>
 		
 <div class="imgContainer">
-  <h2>Funny cats</h2>
   
   <div id="upperRow">
-    <span id="funCat1">
+    <div id="funCat1">
       <a href="img/fun/funCat1.png" class="thumbnail">
         <img src="img/fun/funCat1.png" alt="funny cat" style="width:120px;height:120px">
       </a>
-    </span>
-    <span id="funCat2">
+    </div>
+    <div id="funCat2">
       <a href="img/fun/funCat2.png" class="thumbnail">
         <img src="img/fun/funCat2.png" alt="funny cat" style="width:120px;height:120px">
       </a>
-    </span>
+    </div>
     
 	 <div id="funCat3">
       <a href="img/fun/funCat3.png" class="thumbnail">
@@ -55,6 +59,8 @@
 	
 					</div>
 	
+	
+	<div id="lowerRow">
 	 <div id="funCat6">
       <a href="img/fun/funCat6.png" class="thumbnail">
         <img src="img/fun/funCat6.png" alt="funny cat" style="width:120px;height:120px">
@@ -84,6 +90,7 @@
         <img src="img/fun/funCat10.png" alt="funny cat" style="width:120px;height:120px">
       </a>
     </div>
+	</div>
     </div>
   </div>
 </div>
