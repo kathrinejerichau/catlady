@@ -16,3 +16,12 @@ function catSlideshow() {
 
     setTimeout(catSlideshow, 5000); // setTimeout funker bedre enn setInterval
 }
+
+var catArray = [];
+var cat0 = {catInfo:"CatCarl", catSrc:"img/ourCats/catCarl"};
+var cat1 = {catInfo:"CatCunt", catSrc:"img/ourCats/catCunt"};
+var cat2 = {catInfo:"CatCute", catSrc:"img/ourCats/catCute"};
+var cat3 = {catInfo:"CatCreative", catSrc:"img/ourCats/catCreative"};
+
+catArray.push(cat0, cat1, cat2, cat4);
+console.log(catArray);

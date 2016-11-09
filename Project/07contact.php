@@ -30,7 +30,7 @@
 				in general. 
 			</p>
 			<p>
-			
+				Cattius will typically respond within 1 to 24 hours. 
 			</p>
 		</div>
 		<div id="bodyRight">
