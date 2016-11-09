@@ -1,21 +1,20 @@
 <!DOCTYPE html>
+<!--
+FILE NAME: 07contact.php
+WRITTEN BY: Fredrik I. Forså, Sofia Ø. Jacobsson, & Kathrine J. Nissen
+WHEN: November 2016
+PURPOSE: Basic contact info plus form to fill out.
+-->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
-<div class="header">
 	<?php include 'header.php';?>
-</div>
 <body>
 <div id="wrapper">
-
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-	<div class="banner">
 		<?php include 'banner.php';?>
-	</div>
 	
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-	<div class="menu">
 		<?php include 'menu.php';?>
-	</div>
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
@@ -35,7 +34,7 @@
 			<p>
 				Dog Lane 9, 1337 00 Zootopia.<br>
 				Phone number: 123 456 78 90<br>
-				email: <a href="mailto:cattius@catcastle.com">cattius@catcastle.com</a><br>
+				Email: cattius@catcastle.com<br>
 				Opening hours: 10-18<br>
 				Opening hours (phone): 10-20<br>
 			</p>
@@ -61,9 +60,7 @@
 	
 	
 	<!-- ***** FOOTER CONTENT BELOW ***** -->
-	<div class="footer">
 		<?php include 'footer.php';?>
-	</div>
 </div>
 <script src="js/07contact.js"></script>
 </body>

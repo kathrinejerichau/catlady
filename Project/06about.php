@@ -1,21 +1,20 @@
 <!DOCTYPE html>
+<!--
+FILE NAME: 00home.php
+WRITTEN BY: Kathrine J. Nissen, & Sofia Ø. Jacobsson
+WHEN: October 2016
+PURPOSE: The homepage of the Cat Castle.
+-->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
-<div class="header">
 	<?php include 'header.php';?>
-</div>
 <body>
 <div id="wrapper">
-
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-	<div class="banner">
 		<?php include 'banner.php';?>
-	</div>
 	
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-	<div class="menu">
 		<?php include 'menu.php';?>
-	</div>
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
@@ -35,9 +34,7 @@
 	
 	
 	<!-- ***** FOOTER CONTENT BELOW ***** -->
-	<div class="footer">
 		<?php include 'footer.php';?>
-	</div>
 </div>
 
 </body>
