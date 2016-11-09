@@ -211,6 +211,10 @@ html, body{
 	border-style: solid;
 }
 
+#ourCatsPara{
+	text-align: center;
+}
+
 /* 
 ************************************
 *	about Slidwshow below
@@ -267,17 +271,24 @@ form{
 */
 
 #upperRow, #lowerRow {
-	margin: auto;
-	padding: 5px 5px 5px 5px;
-	float: center;
+	margin-left: 12%;
 	display:flex;
+	padding: 5px 25px 5px;
+	position: relative;
 }
 
 .imgContainer{
-	text-align: center;
+	margin: auto;
+	position: relative;
+	
 }
 
-
+.thumbnail img{
+	width:120px;
+	position: relative;
+	height:120px;
+	padding: 5px 5px 5px 5px;
+}
 
 /*
 ****************************************

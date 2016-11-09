@@ -25,8 +25,10 @@
 		<h2>Our Cats</h2>
 		</div>
 	
-	<p> Here you can see pictures of the cats current available for adoption. </p>
-
+	<div id="ourCatsPara">
+	<p> Here you can see pictures of the cats current available for adoption. If you want to 
+	adopt one of these majestic animals, go to our <a href="01adopt.php">adoption page</a>. </p>
+	</div>
 	
 	<div class="catPictures">
 		<div class="numbertextOurCats"> 1/15 </div>
