@@ -24,6 +24,8 @@
 	<div id="nameOfPage">
 		<h2>Our Cats</h2>
 		</div>
+	
+	<!-- ***** fix folder til img & img src ***** -->
 	<div class="catPictures">
 		<div class="numbertextOurCats"> 1/15 </div>
 	  <img src="img/cat1.png">
@@ -113,6 +115,9 @@
 	  <img src="img/cat15.png">
 	  <div class="textOurCats">En annen katt</div>
 	</div>
+
+	
+
 	
 	</div>
 	
