@@ -250,10 +250,6 @@ form input[type=text], [type=email], [type=number], select, textarea{
 		text-align: center;
 }
 
-form select, option{
-	padding-left: 10%;
-}
-
 form input[type=image]{
 		margin: auto;
 		display: block; 

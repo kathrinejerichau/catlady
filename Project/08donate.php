@@ -38,8 +38,8 @@
 	
 	<div id="bodyRight">
 
-	<form id="donationForm" onsubmit="event.preventDefault(); donationCounter();" autocomplete="off" 
-	action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+	<form target="_blank" id="donationForm" onsubmit="donationCounter();" autocomplete="off" 
+	action="phpForm/donationForm.php" method="post">
 	<input type="text" name="donName" id="donatorName" placeholder="Your name: ">
 	<input type="text" name="donAddress" id="donatorAddress" placeholder="Address: ">
 	<input type="email" name="donEmail" id="donatorEmail" placeholder="Email: ">
@@ -47,38 +47,9 @@
 	<input type="number" name="donAmount" id="NewDonation" placeholder="Donation amount....." min="1" >
 	
 	<input type="image" src="img/purr.png" id="donationButton" height="100" width="200" alt="Donate button image">
-	
-	<! -- ** <canvas id="myCanvas" width="200" height="100" style="border:2px solid  #FFCC00;">
-	
-		
-	<script>
-	/* 
-	var c = document.getElementById("myCanvas");
-	var ctx = c.getContext("2d");
-	var h = c.getContext("2d");
-	var img = document.getElementById("pay");
-	var grd=ctx.createLinearGradient(0,200,0,0);
-	grd.addColorStop(0,"orange");
-	grd.addColorStop(1,"white");
-	
-	ctx.fillStyle = grd;
-	ctx.fillRect(0,0,200,100);
-	
-	// text
-	h.font= "italic 10px Arial";
-	ctx.font = "italic 30px Arial";
-	h.fillStyle= "#20B2AA";
-	h.fillText("Donate with",15,40,100,200);
-	ctx.fillText("PurrPurrPal",15,70,200,100);
-	ctx.drawImage(img, 15,80,100,20);
-	
- */
-	
-	</script> 
+	<input type="button" onclick="rsForm();" id="resetForm" value="Reset Form" height="75" width="100">
 
 	</form>
-
-
 	</div>
 	</div>
 	

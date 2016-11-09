@@ -19,7 +19,9 @@ function sum(a, b){
   document.getElementById("output").innerHTML = ("Thank you for all your support. So far " + donationList.length
   + " contributors has donated to our shelter. Their contributions amounts to a total of "
   + totalDonations + "$ to help local cats.");
-
-	document.getElementById("donationForm").reset();
 }
+}
+
+function rsForm(){
+	document.getElementById("donationForm").reset();
 }
