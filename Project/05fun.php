@@ -42,7 +42,7 @@
 				<!-- Close knapp -->
 				<span class="close" onclick="document.getElementById('funModal').style.display='none'">&times;</span>
 				 <!-- Modal Content (The Image) -->
-				 <img class="modal-content" id="img01">
+				 <img class="modal-content" id="modImg">
 			  
 			  </div>
 			  
