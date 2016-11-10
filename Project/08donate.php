@@ -38,6 +38,15 @@ PURPOSE: Donate information and form.
 		<br><output id="output"></output>
 	</div>
 	
+	
+		<!-- Mockup donation-form. Our initial plan was to have a PayPal-icon, but this was
+		changed to a "PurrPurrPay"-icon. We didn't want to link our page to a real 
+		PayPal-account as our client is imaginary. 
+		
+		This form can be filled out with or without personal information, as the only 
+		requirements for posting is that the donated amount is "min=1". This gives the  
+		contributors the option to remain anonymous. -->
+		
 	<div id="bodyRight">
 
 	<form target="_blank" id="donationForm" onsubmit="donationCounter();" autocomplete="off" 

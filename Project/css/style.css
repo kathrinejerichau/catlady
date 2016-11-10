@@ -280,18 +280,20 @@ form{
 ****************************************
 */
 
+.imgContainer{
+	height: 100%;
+	width; 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
 #upperRow, #lowerRow {
-	margin-left: 12%;
 	display:flex;
 	padding: 5px 25px 5px;
 	position: relative;
 }
 
-.imgContainer{
-	margin: auto;
-	position: relative;
-	
-}
 
 .thumbnail img{
 	width:120px;
@@ -349,6 +351,12 @@ form{
 	}
 }
 
+@media(max-width: 500px){
+	#upperRow, #lowerRow, .imgContainer{
+		flex-direction: column;
+		margin: auto;
+	}
+}
 
 /* 
 ************************************
