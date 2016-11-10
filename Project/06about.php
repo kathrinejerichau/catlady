@@ -30,7 +30,7 @@ PURPOSE: The homepage of the Cat Castle.
 			<p>
 				Cattius is a 67 years old lady that loves cats. 
 				She is a retired veterinarian that is altruistic in nature. 
-				During her career, she worked for 40 years in an animal shelter, 
+				During her career, she worked for 40 year in an animal shelter, 
 				mostly focused on domestic animals. Cattius wishes to remain active 
 				within the community even though retired. Her goal is to bring animals, 
 				specifically cats, and people together, this is achieved with the cat shelter.
