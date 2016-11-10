@@ -1,15 +1,6 @@
 // Setup left canvas
-/*var bodyLeft = document.getElementById('bodyLeft');
-var leftWidth = bodyLeft.offsetWidth;
-var leftHeight = bodyLeft.offsetHeight;
-const canvasLeft = document.getElementById('catCareLeft');
-const contextLeft = canvasLeft.getContext('2d');
-contextLeft.canvas.width = window.innerWidth;
-*/
 
 // Setup right canvas
-
-
 var bodyRight = document.getElementById('bodyRight');
 var rightWidth = bodyRight.offsetWidth;
 var rightHeight = bodyRight.offsetHeight;
@@ -52,31 +43,3 @@ function drawText(text, x, y) {
 drawText("Cat Care Tip:", 20, 20);
 swapText();
 setInterval(swapText, 5000);
-
-
-
-/*
-Du kan skapa en metod som heter typ swapText()
-
-[3:41]  
-Som cyklar igenom textsträngarna, och byter innerHTML på ett element
-
-[3:41]  
-Sedan finns det setInterval(metod, timeout)
-
-[3:42]  
-Den kommer att köra metoden efter varje timeout, i ms
-
-[3:42]  
-Så
-
-[3:42]  
- ```setInterval(swapText, 10000);
-```
-
-[3:42]  
-Är typ magiskt :')
-
-[3:42]  
-Sedan får swapText hålla koll på vilken sträng du är vid just nu, och vilken som är nästa
-*/
