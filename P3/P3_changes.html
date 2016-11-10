@@ -40,48 +40,155 @@
 	        
 	        <h3>Descriptions of the pages:</h3>
 	        <p>
-	        	There have been many changes to the entire website. As a result of our expanded knowledge, the content and structure of the website was modified. The modifications to the specific pages are listed below. If the page is not listed, no changes have been made since the original plan.
+	        	There have been many changes to the entire website. As a result of our expanded knowledge, 
+				the content and structure of the website was modified. The modifications to the specific pages 
+				are listed below. If the page is not listed, no changes have been made since the original plan.
 	        </p>
 	        <h3>Change to php:</h3>
 	        <p>
-	        	We decided to use php in order to have the same menu for each .php page. This makes it easier to chagne the menu bar, since you only need to change it on one place, instead of in every .php file.
+	        	We decided to use php includes to minimize duplicate code across the website. Each page now 
+				uses php include to add the following content:
+				<ul>
+				<li>head</li>
+				<li>banner</li>
+				<li>navbar</li>
+				<li>footer</li>
+				</ul>
+				Using php-includes has taught a lot about code efficiency, and seems to be working great. 
 	        </p>
+			<p>
+				We have two pages using forms, and we were a bit uncertain as to what to do with the data from said
+				forms, in 07contact.php, and 08donate.php. We ended up with setting up two separate php pages to receive
+				the data, which seems to work quite well. Since no databases were allowed, the data will not be stored,
+				but temporarily received, and most of all, it shows that the forms work as  intended. 
+			</p>
+			
+			<h3>Global Layout</h3>
+			<p>
+				Banner, navbar, and footer all got individual changes that span across all pages.
+			</p>
+			<p>
+				The banner was slightly changed, with the removal of the background padding around the text. 
+				We felt that what we ended up with going with was more simplistic, and fit the overall style of our 
+				site better. The pixel values of the banner remains close to the same, with a deviation from 132px width
+				on the cats on each side, to 133px width. This was to achieve better scaling within the pictures on the sides.
+			</p>
+			<p>
+				The navbar was originally intended to stretch across the whole page, but it felt a bit stretched out in the middle,
+				so we decided to lower the spacing on each side, thus bring each link closer together. We also removed the borders
+				in order to keep a more simplistic style. This lead to the drop-down on "Adopt" and "About" not being centered, but
+				instead we focused on having the same left-margin on the drop-down-items, thus adding a bit of padding to the right.
+				We agreed that this looks better, and are satisfied with the functionality. We also decided to add a h2 to each page, 
+				indicating clearly which page the user was on. This was initially thought to be done by having the navbar-tab highlighted, 
+				but this would have lead to "Adopt" and "About" being dropped down while browsing their subpages, which we felt was 
+				a suboptimal solution.
+			</p>
+			<p>
+				When we started the project, and wrote P2_requirements, we initially thought we would be using javascript for the
+				navigation bar. At that stage we were honestly not really sure how to implement javascript efficiently, and thought 
+				it seemed like a reasonable choice to have it for the navbar. Upon creation, we found that the navbar worked great 
+				without javascript, and since the focus of the website shouldn't be smartphones, our minimum resolution did not 
+				require changes to the navbar via javascript. We thus decided to skip it entirely for this section, and instead made
+				up for it in other pages, where we felt it would be put to better use. 
+			</p>
+			<p>
+				As this is a website for a ficional client, we did not want to put a valid email at the bottom of each page, and thus
+				left a tag instead. 
+			</p>
 
+			
 	        <h3>Home</h3>
-	        <p>TEXT</p>
+	        <p>
+				There are no major structural changes to the 00home.php-page. Image was replaced with a better one, text was elaborated,
+				and added links to pages that felt the most useful. 
+			</p>
 
 	        <h3>How to adopt</h3>
 	        <p>TEXT</p>
 
 	        <h3>Our Cats</h3>
-	        <p>TEXT</p>
+	        <p>
+				As mentioned previously, we weren't really sure what we could expect from our javascript-implementations. 02ourCats.php is 
+				one of the pages that had the most changes to them during the creation process. We ended up with going with a very simplistic
+				html, which consists of 5 unique lines. The rest is filled inn via javascript, and we are very happy with this solution. 
+			</p>
+			<p>
+				The javascript 02ourCats.js is one of our most changed files. We initially had a lot of content in the html, but were able
+				to remove this, and implement it all via javascript instead. An array is created, and then the CatLady will manually add
+				objects below, with catInfo: "Cat Name", and catSrc: "link to image of Cat Name". All these objects are manually pushed
+				into the catArray, which makes it easy to remove a single cat from the list, in case it was adopted. The function 
+				catSlideShow then pushes values from the array to the DOM, and loops with a three second interval between each new cat.
+				We are very happy with the way this script turned out. 
+			</p>
 
 	        <h3>Hand-in</h3>
-	        <p>TEXT</p>
+	        <p>
+				The hand-in is pretty much exactly the same as in the mockup. The image was re-scaled to fit better, and actual text was filled in.
+			</p>
 
 	        <h3>Cat Care</h3>
-	        <p>Origially, this page was supposed to have two subpages. But, we considered it unnecessary to have two subpages and decided to merge their content into one page.</p>
+	        <p>
+				Origially, this page was supposed to have two subpages. But, we considered it unnecessary to have two 
+				subpages and decided to merge their content into one page.
+			</p>
 
 	        <h3>Entertainment</h3>
 	        <p>TEXT</p>
 
 	        <h3>Contact</h3>
-	        <p>TEXT</p>
-
+	        <p>
+				The contact page has some minor changes to the text in the left-hand side of the body, filled with more useful information.
+				The contact form was altered to have a border to clearly display where it begins and ends, and style was simplified. We
+				also added a select-drop-down-list, so the user, and Cattius, can easily determine the topic of the exchange.
+			</p>
+			<p>
+				The javascript of the contact form is rather basic. Created a function to reset the form via the reset button,
+				and added some very basic validation, ensuring all fields are filled in. If a field remains untouched, an alert
+				will appear. The use of alert is rather disputed, but we felt this was one of the potentially valid uses of it.
+			</p>
+			<p>
+				The form sends via POST to a .php-page devoted to this form only. See section "Change to php" for more detailed info.
+			</p>
+			
 	        <h3>Donate</h3>
-	        <p>TEXT</p>
+	        <p>
+				Text
+			</p>
+			<p>
+				Javascript
+			</p>
+			<p>
+				The form sends via POST to a .php-page devoted to this form only. See section "Change to php" for more detailed info.
+			</p>
 	        </section>
 	        <section>
 	        <h2>Changes to our time plan:</h2>
 	        <p>
-	        	The members of this group had other projects with deadlines which requied their attention. Therefore, some of the deadlines for this projects had to be postponed. Specific dates for these were not set, however. This affected the project workload, since many things were done at the same time, at the end of the project. Nevertheless, we managed to still finish the project in time for testing it before the delivery.  
+	        	The members of this group had other projects with deadlines which requied their attention. 
+				Therefore, some of the deadlines for this projects had to be postponed. Specific dates for these were not set, 
+				however. This affected the project workload, since many things were done at the same time, at the end of 
+				the project. Nevertheless, we managed to still finish the project in time for testing it before the delivery.  
 	        </p>
 	        </section>
 
 	        <section>
 	        <h2>How each member fullfilled their requirements:</h2>
 	        <p>
-	        	Sofia and Kathrine fulfilled their JavaScript requirements with a JavaScript file which rotates cat facts on 04catCare.php. They also contributed to the general content of the website, on various pages. 
+				Fredrik was responsible for building the main structure of the site, and in retrospect, this task was a bit more
+				demanding than expected. As mentioned above, it lead to a slight delay in our initial deadlines, but we still managed
+				to bring it all together in time. Fredrik also did all page modularity, using .php includes, see "Change to php" for more info. 
+				Once he got started with php, it was a natural decision to also let him setup the 
+				form-reception-php-pages (phpForm/contactForm.php and /donationForm.php).
+			</p>
+			<p>
+				In addition to building the main html and css structure, Fredrik was responsible for 00home.php, 03handIn.php, and 07contact.php.
+				Fredrik, like the rest of the group members, also assisted the others whenever it was needed, for other pages.  
+				JavaScript-wise, Fredrik did the 07contact.js, and cooperated with Lars on the 08donate.js and 02ourCats.js. 
+				In addition to this, Fredrik also created the favicon. 
+			</p>
+			<p>
+	        	Sofia and Kathrine fulfilled their JavaScript requirements with a JavaScript file which rotates cat 
+				facts on 04catCare.php. They also contributed to the general content of the website, on various pages. 
 	        </p>
 	        </section>
 	</section>

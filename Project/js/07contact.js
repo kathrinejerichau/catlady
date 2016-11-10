@@ -17,10 +17,10 @@ function validateForm(){
 	var inputName = document.getElementById("contactName").value;
 	var inputEmail = document.getElementById("contactEmail").value;
 	var inputTextArea = document.getElementById("contactTextBox").value;
+	var inputAbout = document.getElementById("about").value;
 
-	console.log(inputName + inputEmail + inputTextArea);
 
-if((inputName && inputEmail && inputTextArea) == (null || "")){
+if((inputName && inputEmail && inputTextArea && inputAbout) == (null || "")){
 	alert("Please fill out all fields");
 	return false;
 }
