@@ -196,6 +196,7 @@ html, body{
 	width: 55%;
 }
 
+/* raccoon = handIn */
 #raccoonCat{
 	width: 75%;
 	margin: auto;
@@ -214,18 +215,14 @@ html, body{
 	height: 300px;
 	border-radius: 50%;
 }
-.numbertextOurCats{
+#catNumber{
 	text-align: center;
 	
 }
-.textOurCats{
+#catText{
 	background-color: white;
 	margin: 5% 5% 1% 50%;
 	border-style: solid;
-}
-
-#ourCatsPara{
-	text-align: center;
 }
 
 /* 
