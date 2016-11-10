@@ -53,7 +53,7 @@ PURPOSE: Donate information and form.
 				<input type="email" name="donEmail" id="donatorEmail" placeholder="Email: ">
 				<input type="text" name="donPhone" id="donatorPhone" placeholder="Phone number: ">
 				<input type="number" name="donAmount" id="NewDonation" placeholder="Donation amount:" min="1" required>
-				<input type="image" src="img/purr.png" id="donationButton" height="100" width="200" alt="Donate button image">
+				<input type="image" src="img/pages/08donate/purr.png" id="donationButton" height="100" width="200" alt="Donate button image">
 				<input type="button" onclick="rsForm();" id="resetForm" value="Reset Form"> 
 			</form>
 		</div>

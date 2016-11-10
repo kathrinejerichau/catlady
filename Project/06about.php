@@ -23,7 +23,7 @@ PURPOSE: The homepage of the Cat Castle.
 		</div>
 		<div id="bodyLeft">
 			<p>
-			<img src="img/aboutImage.png" alt="cat care" id="aboutImage">
+			<img src="img/pages/06about/aboutImage.png" alt="cat care" id="aboutImage">
 			</p>
 		</div>
 		<div id="bodyRight">

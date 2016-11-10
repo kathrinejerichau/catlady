@@ -23,7 +23,7 @@ PURPOSE: Informational page regarding handing in cats.
 			<h2>Hand-In</h2>
 		</div>
 		<div id="bodyLeft35">
-			<img id="raccoonCat" src="img/raccoonCat.png" alt="Raccoon holding cat">
+			<img id="raccoonCat" src="img/pages/03handIn/raccoonCat.png" alt="Raccoon holding cat">
 		</div>
 		<div id="bodyRight55">
 			<p>
