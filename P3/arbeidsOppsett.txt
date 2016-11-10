@@ -18,13 +18,13 @@ CatFacts(04catCare.php)	: Sofia & Kathrine
 HTML:
 00home.php			: Fredrik
 01howToAdopt.php		: Kathrine
-02ourCats.php			: Lars & Martin
+02ourCats.php			: Lars & Martin		DONE
 03handIn.php			: Fredrik			DONE
 04catCare.php			: Sofia & Kathrine
 05fun.php			: Fredrik
 06about.php			: Martin
 07contact.php			: Kathrine & Fredrik
-08donate.php			: Lars & Martin
+08donate.php			: Lars & Martin		DONE
 
 Google Form			: Fredrik
 

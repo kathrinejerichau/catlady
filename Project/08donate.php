@@ -58,7 +58,7 @@ PURPOSE: Donate information and form.
 	<input type="number" name="donAmount" id="NewDonation" placeholder="Donation amount:" min="1" >
 	
 	<input type="image" src="img/purr.png" id="donationButton" height="100" width="200" alt="Donate button image">
-	<input type="button" onclick="rsForm();" id="resetForm" value="Reset Form" height="75" width="100">
+	<input type="button" onclick="rsForm();" id="resetForm" value="Reset Form"> 
 
 	</form>
 	</div>
