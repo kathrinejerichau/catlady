@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 FILE NAME: 05fun.php
-WRITTEN BY: Lars G. Thyholdt, Martin Kvalheim, Fredrik I. Forså
+WRITTEN BY: Lars G. Thyholdt, Martin Kvalheim
 WHEN: November 2016
 PURPOSE: Image gallery with onclick modal.
 -->
