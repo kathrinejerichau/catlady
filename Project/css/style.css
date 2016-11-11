@@ -1,4 +1,4 @@
-/*
+﻿/*
 FILE NAME: style.css
 WRITTEN BY: Fredrik I. Forså & group
 WHEN: October - November 2016
@@ -277,7 +277,7 @@ form{
 
 .imgContainer{
 	height: 100%;
-	width; 60%;
+	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
@@ -326,14 +326,8 @@ form{
 	width: 50%;
 	max-width: 700px;
 	height: 80%;
-	-webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.5s;
-}
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
@@ -364,7 +358,6 @@ form{
         width: 100%;
     }
 }
-	
 	
 /*
 ****************************************
