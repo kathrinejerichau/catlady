@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 FILE NAME: 08donate.php
-WRITTEN BY: Lars G. Thyholdt & Martin Kvalheim
+WRITTEN BY: Lars G. Thyholdt, Fredrik I. Forså
 WHEN: November 2016
 PURPOSE: Donate information and form.
 -->

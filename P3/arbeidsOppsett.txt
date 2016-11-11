@@ -8,25 +8,6 @@ style.css			: Fredrik
 favicon				: Fredrik
 
 
-Framtidig:
-JavaScript:
-Donation(08donate.php)		: Lars & Martin
-Slideshow(02ourCats.php)	: Lars & Martin
-Form(07contact.php)		: Fredrik (& Sofia + Kathrine)
-CatFacts(04catCare.php)	: Sofia & Kathrine
-
-HTML:
-00home.php			: Fredrik
-01howToAdopt.php		: Kathrine
-02ourCats.php			: Lars & Martin		DONE
-03handIn.php			: Fredrik			DONE
-04catCare.php			: Sofia & Kathrine
-05fun.php			: Fredrik
-06about.php			: Martin
-07contact.php			: Kathrine & Fredrik
-08donate.php			: Lars & Martin		DONE
-
-Google Form			: Fredrik
 
 
 ************************
@@ -36,19 +17,32 @@ Ansvarlig per side gjør:
 * Google Form skal være ferdig innen onsdag 23:59
 
 
-************************
-P3_Changes:
 
-1. Link to folk.martin.ntnu/00home.html
 
-2. How each member fulfilled their minimum requirements
+
+
+************* TODO innan deadline *************
+1. Ansvarlig per side gjør:
+     * Fyll inn endringer i P3_changes.html, sammenlign siden med P2_design.html
+2. Explicitly state which person worked on which files (ALL FILES), who produced
+the artwork, etc.
+
+
+Sofia: p4_testing --- self reflection
+Kathrine: p4_testing --- feedback & your response
+Martin: Link to folk.martin.ntnu/00home.html
+	Skriv in det du har gjort för att uppnå dina krav. How each member fulfilled their minimum requirements
 	Ex: 
 	“Rachel fulfilled her JavaScript requirements with a user-defined 
 	function on intro.html and rollovers on members.html. Tom validated 
 	form inputs on orform.html, and implemented the 
 	pull-down menu for each page”
+Lars: Explicitly state which person worked on which files (ALL FILES), who produced
+the artwork, etc. THE TABLE!!!
+Fredrik: done
 
-3. Explicitly state which person worked on which files (ALL FILES), who produced
-the artwork, etc.
+VALIDERA ALL KOD!!!!!
 
-4. Modularity 
+
+
+
