@@ -21,6 +21,7 @@ Ansvarlig per side gjør:
 
 
 
+
 ************* TODO innan deadline *************
 1. Ansvarlig per side gjør:
      * Fyll inn endringer i P3_changes.html, sammenlign siden med P2_design.html
@@ -29,16 +30,30 @@ the artwork, etc.
 
 
 Sofia: p4_testing --- self reflection
-Kathrine: p4_testing --- feedback & your response
-Martin: Link to folk.martin.ntnu/00home.html
-	Skriv in det du har gjort för att uppnå dina krav. How each member fulfilled their minimum requirements
-	Ex: 
-	“Rachel fulfilled her JavaScript requirements with a user-defined 
-	function on intro.html and rollovers on members.html. Tom validated 
-	form inputs on orform.html, and implemented the 
-	pull-down menu for each page”
-Lars: Explicitly state which person worked on which files (ALL FILES), who produced
-the artwork, etc. THE TABLE!!!
+		Liste: filstruktur, nederst i P3
+		*** VALIDATE ALL CODE
+
+Kathrine: p4_testing --- feedback & your response:
+			JavaScript & safari: Safari doesn't have form tag "required", this needed to be added via javascript.
+		* Zip all files, add link to website in top of p3changes.html
+		*** VALIDATE ALL CODE
+
+Martin: 
+	* Link to folk.martin.ntnu/00home.html
+	* Skriv in det du har gjort för att uppnå dina krav. How each member fulfilled their minimum requirements
+		Ex: 
+		“Rachel fulfilled her JavaScript requirements with a user-defined 
+		function on intro.html and rollovers on members.html. Tom validated 
+		form inputs on orform.html, and implemented the 
+		pull-down menu for each page”
+	* Krediert kilde på 05fun.php, si at du brukte w3schools som inspirasjon til modal, og oppgi link.
+	*** VALIDATE ALL CODE
+
+Lars: 
+	*Explicitly state which person worked on which files (ALL FILES), who produced
+		the artwork, etc. THE TABLE!!!
+	*** VALIDATE ALL CODE
+
 Fredrik: done
 
 VALIDERA ALL KOD!!!!!
