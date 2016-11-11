@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 FILE NAME: 02ourCats.php
-WRITTEN BY: Lars G. Thyholdt & Fredrik I. Forså, Martin Kvalheim
+WRITTEN BY: Lars G. Thyholdt & Fredrik I. Forså
 WHEN: November 2016
 PURPOSE: Slideshow with cats available for adoption.
 -->
