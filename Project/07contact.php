@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 FILE NAME: 07contact.php
-WRITTEN BY: Fredrik I. Forså, Sofia Ø. Jacobsson, & Kathrine J. Nissen
+WRITTEN BY: Fredrik I. Forså
 WHEN: November 2016
 PURPOSE: Basic contact info plus form to fill out.
 -->

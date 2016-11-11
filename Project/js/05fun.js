@@ -1,5 +1,5 @@
 /*
-FILE NAME: 08donate.js
+FILE NAME: 05fun.js
 WRITTEN BY: Martin Kvalheim
 WHEN: November 2016
 PURPOSE: JavaScript to the entertainment-page.
