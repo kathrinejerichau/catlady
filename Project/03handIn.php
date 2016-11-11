@@ -7,15 +7,15 @@ PURPOSE: Informational page regarding handing in cats.
 -->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
-	<?php include 'header.php';?>
+	<?php include 'include/header.php';?>
 <body>
 <div id="wrapper">
 
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-		<?php include 'banner.php';?>
+		<?php include 'include/banner.php';?>
 	
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-		<?php include 'menu.php';?>
+		<?php include 'include/menu.php';?>
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
@@ -23,7 +23,7 @@ PURPOSE: Informational page regarding handing in cats.
 			<h2>Hand-In</h2>
 		</div>
 		<div id="bodyLeft35">
-			<img id="raccoonCat" src="img/raccoonCat.png" alt="Raccoon holding cat">
+			<img id="raccoonCat" src="img/pages/03handIn/raccoonCat.png" alt="Raccoon holding cat">
 		</div>
 		<div id="bodyRight55">
 			<p>
@@ -44,7 +44,7 @@ PURPOSE: Informational page regarding handing in cats.
 	
 	
 	<!-- ***** FOOTER CONTENT BELOW ***** -->
-		<?php include 'footer.php';?>
+		<?php include 'include/footer.php';?>
 </div>
 
 </body>

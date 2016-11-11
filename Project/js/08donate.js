@@ -32,13 +32,13 @@ function donationCounter(){
 	//Prints text with values to "output"
 	if (donationList.length<2){
 		document.getElementById("output").innerHTML = ("Thank you for all your support. So far " + donationList.length 
-		+ " contributor has donated to our shelter. Your contribution of" 
-		+ totalDonations + "$ allows us to help local cats.");
+		+ " contributor has donated to our shelter. Your contribution of $" 
+		+ totalDonations + " allows us to help local cats.");
 	}
 	else {
 		document.getElementById("output").innerHTML = ("Thank you for all your support. So far " + donationList.length 
-		+ " contributors has donated to our shelter. Their contributions amounts to a total of " 
-		+ totalDonations + "$ to help local cats.");
+		+ " contributors have donated to our shelter. Their contributions amounts to a total of $" 
+		+ totalDonations + " to help local cats.");
 	}
 }
 }

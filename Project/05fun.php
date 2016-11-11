@@ -1,109 +1,60 @@
 <!DOCTYPE html>
+<!--
+FILE NAME: 05fun.php
+WRITTEN BY: Lars G. Thyholdt & Martin Kvalheim
+WHEN: November 2016
+PURPOSE: Image gallery with onclick modal.
+-->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
-	<?php include 'header.php';?>
+	<?php include 'include/header.php';?>
 <body>
 <div id="wrapper">
 
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-		<?php include 'banner.php';?>
+		<?php include 'include/banner.php';?>
 
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-		<?php include 'menu.php';?>
+		<?php include 'include/menu.php';?>
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
 	<div id="divBody">
 	
-	
-<div id="nameOfPage">
+		<div id="nameOfPage">
 			<h2>Entertainment </h2>
 		</div>
 		
-<div class="imgContainer">		
+		<div class="imgContainer">		
   
-  
-	<!-- Upper row of pictures -->
-	
-		<div id="upperRow">
-			<div id="funCat1">
-			  <a href="img/fun/funCat1.png" class="thumbnail">
-				<img src="img/fun/funCat1.png" alt="funny cat">
-			  </a>
+		<!-- Upper row of pictures -->
+			<div id="upperRow">		
+				<img class="thumbnail" onclick="onClick(this)" id="myImg1" src="img/pages/05fun/funCat1.png" alt="funny cat">
+				<img class="thumbnail" onclick="onClick(this)" id="myImg2" src="img/pages/05fun/funCat2.png" alt="funny cat">
+				<img class="thumbnail" onclick="onClick(this)" id="myImg3" src="img/pages/05fun/funCat3.png" alt="funny cat">
+				<img class="thumbnail" onclick="onClick(this)" id="myImg4" src="img/pages/05fun/funCat4.png" alt="funny cat">
+				<img class="thumbnail" onclick="onClick(this)" id="myImg5" src="img/pages/05fun/funCat5.png" alt="funny cat">
 			</div>
-			
-			<div id="funCat2">
-			  <a href="img/fun/funCat2.png" class="thumbnail">
-				<img src="img/fun/funCat2.png" alt="funny cat">
-			  </a>
+		
+		<!-- Lower row of pictures -->
+			<div id="lowerRow">
+				<img class="thumbnail"  onclick="onClick(this)" id="myImg6" src="img/pages/05fun/funCat6.png" alt="funny cat">  
+				<img class="thumbnail"  onclick="onClick(this)" id="myImg7" src="img/pages/05fun/funCat7.png" alt="funny cat">
+				<img class="thumbnail"  onclick="onClick(this)" id="myImg8" src="img/pages/05fun/funCat8.png" alt="funny cat">
+				<img class="thumbnail"  onclick="onClick(this)" id="myImg9" src="img/pages/05fun/funCat9.png" alt="funny cat">
+				<img class="thumbnail"  onclick="onClick(this)" id="myImg10" src="img/pages/05fun/funCat10.png" alt="funny cat">
 			</div>
-			
-			 <div id="funCat3">
-			  <a href="img/fun/funCat3.png" class="thumbnail">
-				<img src="img/fun/funCat3.png" alt="funny cat">
-			  </a>
-			</div>
-			
-			 <div id="funCat4">
-			  <a href="img/fun/funCat4.png" class="thumbnail">
-				<img src="img/fun/funCat4.png" alt="funny cat">
-			  </a>
-			</div>
-			
-			 <div id="funCat5">
-			  <a href="img/fun/funCat5.png" class="thumbnail">
-				<img src="img/fun/funCat5.png" alt="funny cat">
-			  </a>
-			</div>
-			
-			
 		</div>
-			
-			
-	<!-- Lower row of pictures -->
-			
-		<div id="lowerRow">
-			
-			<div id="funCat6">
-			  <a href="img/fun/funCat6.png" class="thumbnail">
-				<img src="img/fun/funCat6.png" alt="funny cat">
-			  </a>
-			</div>
-			
-			<div id="funCat7">
-			  <a href="img/fun/funCat7.png" class="thumbnail">
-				<img src="img/fun/funCat7.png" alt="funny cat">
-			  </a>
-			</div>
-			
-			<div id="funCat8">
-			  <a href="img/fun/funCat8.png" class="thumbnail">
-				<img src="img/fun/funCat8.png" alt="funny cat">
-			  </a>
-			</div>
-			
-			<div id="funCat9">
-			  <a href="img/fun/funCat9.png" class="thumbnail">
-				<img src="img/fun/funCat9.png" alt="funny cat">
-			  </a>
-			</div>
-		 
-			<div id="funCat10">
-			  <a href="img/fun/funCat10.png" class="thumbnail">
-				<img src="img/fun/funCat10.png" alt="funny cat">
-			  </a>
-			</div>
-		
+		<!-- Modal -->
+		<div id="funModal" class="modal" onclick="this.style.display='none'">
+			<!-- Close button -->
+			<span class="close" onclick="document.getElementById('funModal').style.display='none'">&times;</span>
+			<!-- Modal Content (The Image) -->
+			<img class="modal-content" id="modImg" alt="placeholder" src="img/pages/05fun/funCat1.png">
 		</div>
-    </div>
-  </div>
-
-		
-		
-
-	
-	
+	</div>
 	<!-- ***** FOOTER CONTENT BELOW ***** -->
-		<?php include 'footer.php';?>
+		<?php include 'include/footer.php';?>
 </div>
+<script src="js/05fun.js"> </script>
 </body>
 </html>

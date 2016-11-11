@@ -7,17 +7,17 @@ PURPOSE: The homepage of the Cat Castle.
 -->
 <html>
 	<!-- ***** HEADER CONTENT BELOW ***** -->
-	<?php include 'header.php';?>
+	<?php include 'include/header.php';?>
 
 <body>
 <div id="wrapper">
 
 	<!-- ***** BANNER CONTENT BELOW ***** -->
-		<?php include 'banner.php';?>
+		<?php include 'include/banner.php';?>
 
 	
 	<!-- ***** NAVBAR CONTENT BELOW ***** -->
-		<?php include 'menu.php';?>
+		<?php include 'include/menu.php';?>
 
 
 	<!-- ***** BODY CONTENT STARTS HERE ***** -->
@@ -27,7 +27,7 @@ PURPOSE: The homepage of the Cat Castle.
 		</div>
 		
 		<div id="bodyLeft">
-			<img src="img/homeCat.png" alt="home cat">
+			<img src="img/pages/00home/homeCat.png" alt="home cat" id="homCat">
 		</div>
 		
 		<div id="bodyRight">
@@ -52,7 +52,7 @@ PURPOSE: The homepage of the Cat Castle.
 	
 	
 	<!-- ***** FOOTER CONTENT BELOW ***** -->
-		<?php include 'footer.php';?>
+		<?php include 'include/footer.php';?>
 
 </div>
 
