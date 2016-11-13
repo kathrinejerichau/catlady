@@ -37,7 +37,7 @@ PURPOSE: Explains how to adopt cats, links to 02ourCats.php.
 
 		<div id="bodyRight">
         <p>
-			It is easy to adopt one of my cats, check out the cats in our cats galleri 
+			It is easy to adopt one of my cats, check out the cats in our cats gallery 
 			<a href="02ourCats.php">here</a> or stop by the Cat Castle and find your match. 
 			Once you’ve made a decision, we’ll sit down for an informal consultation to 
 			ensure that you and the pet you’ve selected are a good match. 
